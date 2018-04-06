@@ -58,6 +58,7 @@ void baseout (long number, long base, FILE * stream) {
     //printf("%s\n", result);
     //printf("%lu\n", strlen(result));
 
+    // option: HEX
     if(base == 16) {
 
         for (int i = 15; i >= 0; i--) {    
